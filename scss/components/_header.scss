@@ -1,0 +1,24 @@
+header{
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   margin: auto;
+   width: 100%;
+   .menu-social{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      // margin-top: 60px;
+      margin-top: 45px;
+      li{
+         display: inline-block;
+         margin-right: 40px;
+      }
+      .social{
+         li{
+            margin-right: 30px;
+         }
+      }
+   }
+}
