@@ -1,0 +1,52 @@
+footer{
+   background: $titleSection;
+   padding: 150px 0;
+   .footer-container, .menus-footer{
+      display: flex;
+      width: 100%;
+   }
+   .footer-container{
+      justify-content: space-between;
+   }
+   .title-item{
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: 0.1px;
+      color: #FFFFFF;
+      font-family: "Graphik-Bold";
+      font-weight: normal;      
+      margin-bottom: 25px;
+   }
+   .item{
+      width: 30%;
+      a{
+         margin-bottom: 16px;
+         display: inline-block;
+      }
+   }
+  
+  .contact{
+     width: 35%;
+   .social{
+      li{
+         display: inline-block;
+         margin-right: 30px;
+         margin-top: 20px;
+      }
+   }
+     li{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+     }
+     span{
+        color: #fff;
+        font-size: 15px;
+         line-height: 27px;
+         letter-spacing: 0.2px;
+         font-family: 'Graphik-Regular';    
+         margin-left: 15px;     
+     }
+  }
+
+}

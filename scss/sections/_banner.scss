@@ -1,5 +1,5 @@
 #baneer{
-   min-height: 930px;
+   min-height: 100vh;
    background-image: url(../images/baneer.png);
    background-size: cover;
    background-repeat: no-repeat;
@@ -8,7 +8,7 @@
    flex-direction: column;
    justify-content: space-between;
    padding: 45px 0;
-   background-position: center;
+   background-position: 50% 100%;
    .logo{
       img{
          width: 186px;
@@ -109,5 +109,185 @@
       height: 725px;
       width: 100%;
       object-fit: cover;
+   }
+}
+#organisation{
+   margin: 278px 0;
+   .organisation-content{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      .description{
+         width: 50%;
+      }
+      .image{
+         width: 50%;
+         img{
+            width: 100%;
+            height: auto;
+         }
+      }
+      .title-section{
+         h3{
+            text-align: left;
+         }
+         p{
+            text-align: left;
+            margin-bottom: 70px;
+         }
+         
+      }
+   }
+}
+#newsletter{
+   .newsletter-content{
+      display: flex;
+      justify-content: space-between;
+   }
+   h4{
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: 0.1px;
+      color: $titleSection;
+      font-family: 'Graphik-Bold';
+      margin-bottom: 17px;
+      font-weight: normal;
+
+   }
+   h3{
+      font-size: 48px;
+      line-height: 55px;
+      letter-spacing: 0.1px;
+      color: $titleSection;
+      font-family: 'Graphik-Regular';
+      font-weight: normal;
+      margin-bottom: 35px;
+      margin-top: 0;
+   }
+   .action-content{
+      h4{
+         margin-bottom: 0;
+      }
+      p{
+         font-family: "Graphik-Regular";
+         font-size: 18px;
+         line-height: 25px;
+         letter-spacing: 0.2px;
+         color: $secondText;
+         margin-top: 0;
+         margin-bottom: 36px;
+      }
+      input[type="text"]{
+         margin-right: 12px;
+      }
+   }
+}
+#partner{
+   margin: 180px 0;
+   .partners-list{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 80px;
+   }
+   .item{
+      padding: 30px 0px;
+      border: 1px solid #d8d8d8;
+      width: 24%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      div{
+         padding: 0 40px;
+      }
+      span{
+         font-size: 16px;
+         line-height: 23px;
+         letter-spacing: 0.1px;
+         color: #374754;
+         margin-bottom: 15px;
+         display: inline-block;
+         font-family: "Graphik-Regular";
+      }
+      img{
+         width: auto;
+         height: 50px;
+      }
+   }
+   .center{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 80px;
+   }
+}
+#testimonials{
+   margin-bottom: 100px;
+   .testimonial-content{
+      text-align: center;
+      img{
+         width: 150px;
+         height: auto;
+         margin-bottom: 60px;
+      }
+   }
+   
+   p{
+      font-size: 28px;
+      line-height: 40px;
+      letter-spacing: 0.2px;
+      font-family: 'Graphik-Regular';
+      color: $secondText;
+      max-width: 987px;
+      margin: auto;
+   }
+   .author{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 60px;
+      .org{
+         color: $secondText;
+         font-size: 16px;
+         line-height: 23px;
+         font-family: 'Graphik-Bold';         
+      }
+      .post{
+         color: $secondText;
+         font-size: 15px;
+         line-height: 28px;
+         font-family: 'Graphik-Regular';   
+      }
+      .role{
+         margin-left: 13px;
+         text-align: left;
+      }
+      
+
+
+      .auth-img{
+         overflow: hidden;
+         width: 50px;
+         height: 50px;
+         border-radius: 150px;
+         img{
+            width: 50px;
+            height: auto;
+         }
+      }
+
+      
+   }
+   .cta{
+      margin-top: 80px;
+   }
+}
+#pricing{
+   background: $titleSection;
+   padding: 140px 0;
+   .title-section{
+      h3, p{
+         color: #fff;
+      }
    }
 }

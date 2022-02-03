@@ -51,6 +51,9 @@ body{
    letter-spacing: 0.2px;
    text-align: center;
    font-family: 'Graphik-Regular';
+   border: none;
+   display: inline-block;
+   cursor: pointer;
 }
 
 .title-section{
@@ -72,5 +75,20 @@ body{
       text-align: center;
       letter-spacing: 0.2px;
       color: $secondText;
+   }
+}
+input[type="text"]{
+   background: #F4F4F4;
+   border: 1px solid #E8E8E8;
+   box-sizing: border-box;
+   border-radius: 39px;
+   padding: 19px 39px;
+   outline: none;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.1px;
+   color: $textinput;
+   &:focus-visible, &:focus{
+      outline: none;
    }
 }
