@@ -290,4 +290,98 @@
          color: #fff;
       }
    }
+   .list-pricing{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 80px;
+   }
+   .item{
+      padding: 43px 40px;
+      box-sizing: border-box;
+      box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+      border-radius: 10px;
+      text-align: center;
+      width: 30%;
+      
+      &.white-template{
+         background: $lightText;
+         color: $titleSection;         
+         h4, p, span, .curr{
+            color: $titleSection;
+         }
+         .recursive{
+            color: $secondText;
+         }
+
+      }
+      &.blue-template{
+         background: $colorPrimary;
+         color: $lightText;
+         padding: 95px 40px;
+
+         h4, p, span, .curr, .recursive{
+            color: $lightText;
+         } 
+         a.button-primary{
+            background-color: $lightText;
+            color: $colorPrimary;
+         }        
+      }
+      h4{
+         font-size: 20px;
+         line-height: 28px;
+         letter-spacing: 0.1px;
+         text-transform: uppercase;
+         font-family: 'Graphik-Bold';
+         margin-bottom: 3px;
+      }
+      p{
+         font-size: 16px;
+         line-height: 23px;
+         text-align: center;
+         letter-spacing: 0.1px;
+         font-family: 'Graphik-Regular';
+      }
+      .price{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         span{
+            font-size: 74px;
+            line-height: 84px;
+            letter-spacing: 0.2px;
+            font-family: 'Graphik-Bold';
+         }
+         .payment{
+            margin-left: 10px;
+            text-align: left;
+            .curr{
+               font-size: 20px;
+               line-height: 28px;
+               letter-spacing: 0.1px;
+               font-family: 'Graphik-Bold';
+
+            }
+            .recursive{
+               font-size: 16px;
+               line-height: 23px;
+               letter-spacing: 0.1px;
+               font-family: 'Graphik-Regular';
+            }
+
+         }
+      }
+      .feature{
+         margin-bottom: 40px;
+      }
+      .cta{
+         .button-primary{
+            padding-left:0 ;
+            padding-right:0 ;
+            width: 100%;
+         }
+      }
+   }
+
 }

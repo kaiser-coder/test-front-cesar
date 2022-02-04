@@ -35,6 +35,10 @@ a{
    font-size: 15px;
    line-height: 28px;
    color: $lightText;
+   transition: .3s ease-in;
+   &:hover{
+      color: $colorPrimary;
+   }
 }
 body{
    margin: 0;
@@ -43,6 +47,7 @@ body{
 
 .button-primary{
    background-color: $colorPrimary;
+   border: solid 1px $colorPrimary;
    border-radius: 35px;
    color: $lightText;
    padding: 16px 62px;
@@ -51,9 +56,13 @@ body{
    letter-spacing: 0.2px;
    text-align: center;
    font-family: 'Graphik-Regular';
-   border: none;
    display: inline-block;
    cursor: pointer;
+   transition: .3s ease-in-out;
+   &:hover{
+      color: $colorPrimary;
+      background-color: $lightText;
+   }
 }
 
 .title-section{
